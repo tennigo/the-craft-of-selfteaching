@@ -14,11 +14,3 @@ for n in range(2,10):
 		break
 	else:
 		print(f'{n}')
-
-print('---')
-
-for n in range(2, 10):
-	print(f'{n}')
-	if n == 7:
-		print(n)
-		break
