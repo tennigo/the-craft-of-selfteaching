@@ -6,4 +6,4 @@ def is_leap(year):
 			False: if input is not a leap year.
 	"""
 	n = int(year)
-	if n % 4 == 0
+	return n % 4 == 0  and (n % 100 != 0 or n % 400 == 0)
